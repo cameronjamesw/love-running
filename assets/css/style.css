@@ -83,10 +83,11 @@ nav {
 }
 
 /* Main Content Styles */
-div {
+main {
     background-color: aqua;
     flex: 1 0 auto;
     font-family: 'lato', sans-serif;
+    margin-top: 47px;
 }
 
 /* Footer Styles */
