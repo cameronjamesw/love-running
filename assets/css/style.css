@@ -214,6 +214,26 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    /* Reaons Section for Tablet */
+
+    #mental-benefits,
+    #physical-benefits {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+        #mental-benefits > div,
+        #physical-benefits > div {
+            width: 75%;
+        }
+
+        #mental-benefits > div {
+            text-align: end;
+                align-self: flex-end;
+        }
+        
 }
 
 /* Large devices, laptops and desktops (992px and abvove) */
@@ -221,4 +241,30 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #494949;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+        #benefits > div {
+            flex: 1;
+        }
+
+    #benefits-image {
+        order: 1;
+    }
+
+    #mental-benefits {
+        order: 2;
+    }
+
+    #physical-benefits > div {
+        align-self: flex-end;
+    }
+
+    #mental-benefits > div {
+            align-self: flex-start;
+        }
 }
