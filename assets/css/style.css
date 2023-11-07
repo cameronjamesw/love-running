@@ -60,6 +60,7 @@ h1 {
     border-bottom: 1px solid #494949;
 }
 
+/* Navigation Styling */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -91,6 +92,7 @@ main {
     margin-top: 47px;
 }
 
+/* Hero Image */
 #hero {
     height: 600px;
     width: 100%;
