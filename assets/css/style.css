@@ -1,3 +1,6 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Wildcard Styles */
 * {
     padding: 0px;
@@ -12,9 +15,9 @@ body {
     min-height: 100vh;
 
 
-/* Generic Project Styles */
+    /* Generic Project Styles */
     color: #3a3a3a;
- }
+}
 
 /* Header Styles */
 header {
@@ -23,11 +26,11 @@ header {
 
 /* Main Content Styles */
 div {
-    background-color:aqua;
+    background-color: aqua;
     flex: 1 0 auto;
 }
 
 /* Footer Styles */
 footer {
-    background-color:greenyellow
+    background-color: greenyellow
 }
