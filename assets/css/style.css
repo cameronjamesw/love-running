@@ -1,17 +1,33 @@
+/* Wildcard Styles */
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box
 }
 
+/* Generic Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+/* Generic Project Styles */
+    color: #3a3a3a;
+ }
+
+/* Header Styles */
 header {
     background-color: red
 }
 
+/* Main Content Styles */
 div {
-    background-color:aqua
+    background-color:aqua;
+    flex: 1 0 auto;
 }
 
+/* Footer Styles */
 footer {
     background-color:greenyellow
 }
