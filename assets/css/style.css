@@ -21,13 +21,15 @@ body {
 
 /* Header Styles */
 header {
-    background-color: red
+    background-color: red;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Main Content Styles */
 div {
     background-color: aqua;
     flex: 1 0 auto;
+    font-family: 'lato', sans-serif;
 }
 
 /* Footer Styles */
