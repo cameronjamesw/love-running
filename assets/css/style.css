@@ -41,10 +41,20 @@ h1 {
     text-transform: uppercase;
     color: #252525;}
 
-    nav ul {
+#menu {
         list-style-type: none;
-    }
-    
+        letter-spacing: 4px;
+        font-size: 110%;
+        color: #494949;}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #494949;
+}
+
 /* Main Content Styles */
 div {
     background-color: aqua;
