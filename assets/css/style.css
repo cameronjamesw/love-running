@@ -22,6 +22,7 @@ body {
 /* Header Styles */
 header {
     background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -38,10 +39,12 @@ h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #252525;
+    color: #252525;}
 
-}
-
+    nav ul {
+        list-style-type: none;
+    }
+    
 /* Main Content Styles */
 div {
     background-color: aqua;
