@@ -14,7 +14,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 
-
     /* Generic Project Styles */
     color: #3a3a3a;
 }
@@ -26,6 +25,10 @@ h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #252525;
+}
+
+.hidden-heading {
+    display: none;
 }
 
 /* Header Styles */
@@ -182,9 +185,11 @@ main {
     than 400px wide */
     flex-basis: 200px;
     flex-grow: 1;
-    
+}
+
+#times div {
     /* This creates a solid border around the divs */
-    border: 2px solid #ffffff:
+    border: 2px solid white 
 }
 
 #times h3 {
