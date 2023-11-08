@@ -19,7 +19,9 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -112,7 +114,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -123,7 +126,7 @@ main {
     margin: 20px auto
 }
 
-#reasons > h2 {
+#reasons>h2 {
     font-size: 280%;
     text-align: center;
     margin: 0 0 20px 0;
@@ -134,9 +137,10 @@ main {
     margin: 5px 0;
 }
 
-#physical-benefits div, #mental-benefits div {
-        line-height: 20px;
-        margin: 0 0 20px 0;
+#physical-benefits div,
+#mental-benefits div {
+    line-height: 20px;
+    margin: 0 0 20px 0;
 }
 
 #physical-benefits p,
@@ -160,20 +164,48 @@ main {
     align-items: center;
 }
 
+/* Meetup Times Styles */
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+
+    /* This means that the text will not wrap on screen sizes that are smaller
+    than 400px wide */
+    flex-basis: 200px;
+    flex-grow: 1;
+    
+    /* This creates a solid border around the divs */
+    border: 2px solid #ffffff:
+}
+
+#times h3 {
+    /* This overrides the color set earlier in the content */
+    color: #fafafa;
+}
+
 /* Footer Styles */
 #social-networks {
-    text-align:center;
+    text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    }
+}
 
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #3a3a3a
-    }
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
+}
 
 
 /* Media query for tablets and larger (768px and up) */
@@ -224,16 +256,16 @@ main {
         width: 100%;
     }
 
-        #mental-benefits > div,
-        #physical-benefits > div {
-            width: 75%;
-        }
+    #mental-benefits>div,
+    #physical-benefits>div {
+        width: 75%;
+    }
 
-        #mental-benefits > div {
-            text-align: end;
-                align-self: flex-end;
-        }
-        
+    #mental-benefits>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 /* Large devices, laptops and desktops (992px and abvove) */
@@ -248,9 +280,10 @@ main {
         display: flex;
         flex-direction: row;
     }
-        #benefits > div {
-            flex: 1;
-        }
+
+    #benefits>div {
+        flex: 1;
+    }
 
     #benefits-image {
         order: 1;
@@ -260,11 +293,11 @@ main {
         order: 2;
     }
 
-    #physical-benefits > div {
+    #physical-benefits>div {
         align-self: flex-end;
     }
 
-    #mental-benefits > div {
-            align-self: flex-start;
-        }
+    #mental-benefits>div {
+        align-self: flex-start;
+    }
 }
